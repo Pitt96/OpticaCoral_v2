@@ -46,7 +46,7 @@ public class sendMailClass {
 
             m_simpleMessage = new MimeMessage(m_Session);
 
-            m_fromAddress = new InternetAddress("davidpachecoask@gmail.com");
+            m_fromAddress = new InternetAddress("palominoriosroy@gmail.com");
             m_toAddress = new InternetAddress(mail);
 
             m_simpleMessage.setFrom(m_fromAddress);
@@ -65,7 +65,7 @@ public class sendMailClass {
         // TODO code application logic here
         sendMailClass send = new sendMailClass();
         try {
-            send.sendMail("indicedepublicaciones@gmail.com");
+            send.sendMail("palominoriosroy@gmail.com");
         } catch (Exception ex) {
             Logger.getLogger(sendMailClass.class.getName()).log(Level.SEVERE, null, ex);
         }

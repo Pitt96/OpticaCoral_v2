@@ -23,9 +23,9 @@ public class Emails {
         props.put("mail.smtp.host", "smtp.gmail.com");
         props.put("mail.smtp.port", "587");
 
-        props.put("from", "davidpachecoask@gmail.com");
-        props.put("username", "davidpachecoask@gmail.com");
-        props.put("password", "Uatr1ceaT");
+        props.put("from", "palominoriosroy@gmail.com");
+        props.put("username", "palominoriosroy@gmail.com");
+        props.put("password", "noemibernado26");
     }
 
     public void enviar(String to, String subject, String content) throws MessagingException {

@@ -147,7 +147,7 @@
             <div class="row">
                 <p class="pull-left">Copyright © 2022 . Todos los derechos reservados.</p>
                 <p class="pull-right">
-                    Pagina diseñado por <span><a target="_blank" href="https://www.udemy.com/user/christian-gamez-2">Roy Piter Palomino Rios</a></span> - 
+                    Pagina diseñado por <span><a target="_blank" href="">Roy Piter Palomino Rios</a></span> - 
                     <span><a target="_blank" href="#">Maria Tello Saravia</a></span> - 
                     <span><a target="_blank" href="#">Alejandro More Ramos</a></span> - 
                     <span><a target="_blank" href="#">David Medina Ortiz</a></span>

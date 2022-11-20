@@ -6,7 +6,7 @@
     </context-param>
     <context-param>
         <param-name>urlretorno</param-name>
-        <param-value>http://localhost:8080/ecosalud/cart?accion=finish</param-value>
+        <param-value>http://localhost:8080/coral/cart?accion=finish</param-value>
     </context-param>
     <!-- SMTP settings -->
     <context-param>
@@ -19,7 +19,7 @@
     </context-param>
     <context-param>
         <param-name>user</param-name>
-        <param-value>davidpachecoask@gmail.com</param-value>
+        <param-value>palominoriosroy@gmail.com</param-value>
     </context-param>
     <context-param>
         <param-name>pass</param-name>
@@ -27,43 +27,43 @@
     </context-param>
     <servlet>
         <servlet-name>LoginController</servlet-name>
-        <servlet-class>pe.com.ecosalud.controlador.LoginController</servlet-class>
+        <servlet-class>pe.com.coral.controlador.LoginController</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>PersonaController</servlet-name>
-        <servlet-class>pe.com.ecosalud.controlador.PersonaController</servlet-class>
+        <servlet-class>pe.com.coral.controlador.PersonaController</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>CambiarMoneda</servlet-name>
-        <servlet-class>pe.com.ecosalud.controlador.CambiarMoneda</servlet-class>
+        <servlet-class>pe.com.coral.controlador.CambiarMoneda</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>Home</servlet-name>
-        <servlet-class>pe.com.ecosalud.vistas.Home</servlet-class>
+        <servlet-class>pe.com.coral.vistas.Home</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ProductoController</servlet-name>
-        <servlet-class>pe.com.ecosalud.controlador.ProductoController</servlet-class>
+        <servlet-class>pe.com.coral.controlador.ProductoController</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>CartController</servlet-name>
-        <servlet-class>pe.com.ecosalud.vistas.CartController</servlet-class>
+        <servlet-class>pe.com.coral.vistas.CartController</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ValoracionController</servlet-name>
-        <servlet-class>pe.com.ecosalud.controlador.ValoracionController</servlet-class>
+        <servlet-class>pe.com.coral.controlador.ValoracionController</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AdminController</servlet-name>
-        <servlet-class>pe.com.ecosalud.controlador.AdminController</servlet-class>
+        <servlet-class>pe.com.coral.controlador.AdminController</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>EmpleadoController</servlet-name>
-        <servlet-class>pe.com.ecosalud.controlador.EmpleadoController</servlet-class>
+        <servlet-class>pe.com.coral.controlador.EmpleadoController</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>VentaController</servlet-name>
-        <servlet-class>pe.com.ecosalud.controlador.VentaController</servlet-class>
+        <servlet-class>pe.com.coral.controlador.VentaController</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>LoginController</servlet-name>

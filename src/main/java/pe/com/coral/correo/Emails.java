@@ -25,7 +25,7 @@ public class Emails {
 
         props.put("from", "palominoriosroy@gmail.com");
         props.put("username", "palominoriosroy@gmail.com");
-        props.put("password", "noemibernado26");
+        props.put("password", "");
     }
 
     public void enviar(String to, String subject, String content) throws MessagingException {
